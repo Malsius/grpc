@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Crypto {
+  rpc GetPlusOne(Request) returns (Response) {}
+}
+
+message Request {
+  int64 number = 1;
+}
+
+message Response {
+  int64 number = 1;
+}

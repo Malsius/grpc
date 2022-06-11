@@ -1,0 +1,1 @@
+python -m grpc_tools.protoc -I./protos/ --python_out=./secure/ --grpc_python_out=./secure/ ./protos/crypto.proto
